@@ -1,0 +1,173 @@
+h1{
+  margin: 5px;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: lightyellow;
+}
+h1 svg{
+  width: 40px;
+  align-items: center;
+  height: 30px;
+}
+.title{
+
+  background-color: #f5ba13;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 25px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  margin-bottom: 20px;
+}
+.inner-title{
+  display: flex;
+  align-items: center;
+
+}
+form{
+  position: relative;
+  
+}
+
+.Width{
+  width: 270px;
+}
+.input-area{
+  resize: none;
+  width: 321px;
+  border-top: none;
+  border-style: solid;
+  border-color: rgb(239, 236, 236);
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-top: 0px;
+  border-width: 4px;
+  box-shadow: 0px 5px 50px 2px rgb(174, 174, 174);
+  
+}
+.input-title{
+  padding-top: 20px;
+  height: 30px;
+  width: 320px;
+  border-bottom: 0px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-weight: 500px;
+  
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(239, 236, 236);
+  border-bottom: 0px;
+  box-shadow: 0px 5px 50px 2px rgb(174, 174, 174);
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+
+}
+.form-area{
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -30px;
+  right: -10px;
+  cursor: pointer;
+  
+}
+
+
+  
+
+.item{
+  background-color: white;
+  position: relative;
+  width: 320px;
+  height: 180px;
+  margin-bottom: 35px;
+  border-color: darkgray;
+  border-radius: 5px;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.delete-btn{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(255, 182, 92);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -20px;
+  right: -10px;
+  cursor: pointer;
+
+}
+
+.delete-btn i{
+  height: 100px;
+}
+
+
+.inputs h1{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.inputs p{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+.footer-title{
+  position: sticky;
+  background-color: lightyellow;
+  color: rgb(92, 88, 88);
+  text-align: center;
+  padding: 1em;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 700px;
+  
+}
+
+.grid-notes{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin: 15px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
